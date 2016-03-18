@@ -36,11 +36,11 @@ function makeMap(error, zips) {
     .attr("height", mapHeight);
 
   mapSvg
-    .attr("id", "zips")
+    .attr("id", "map")
     .selectAll(".zip")
     .data(topojson.feature(zips, zips.objects.zipcodes).features)
     .enter().append("path")
-    .attr("class", "district")
+    .attr("class", "zip")
     .attr("d", path)
 
 

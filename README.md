@@ -1,5 +1,7 @@
 # QC_SM_NYC_Dashboard
 Quantified communities Social Media dashboard
+[gh-pages online version](http://casyfill.github.io/QC_SM_NYC_Dashboard/)
+
 
 Repository will conclude:
 - Dashboard online tool
@@ -11,7 +13,7 @@ Repository will conclude:
 - [x] dashboard
 - [ ] NYC zipcode map
 - [ ] Map hover
-- [ ] put online (gh-pages)
+- [x] put online (gh-pages)
 - [ ] Networking hower
 - [ ] pop-up infowindow
 - [ ] All/Workday/weekend/night/... modes

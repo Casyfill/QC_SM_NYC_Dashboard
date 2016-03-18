@@ -16,8 +16,8 @@ function makeMap(error, zips) {
   console.log('makeMap fired')
   var zips = zips;
 
-  // var mapWidth = 700,
-  //   mapHeight = 713;
+  var mapWidth = 700,
+    mapHeight = 713;
 
   // zipsFeatures = topojson.feature(zips, zips.objects.postalCode).features;
 

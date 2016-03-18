@@ -41,9 +41,6 @@ function makeMap(error, zips) {
     .data(topojson.feature(zips, zips.objects.zipcodes).features)
     .enter().append("path")
     .attr("class", "district")
-    .attr("id", function(d) {
-      return "district " + d.id;
-    })
     .attr("d", path)
 
 

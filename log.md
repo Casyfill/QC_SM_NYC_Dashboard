@@ -8,4 +8,4 @@
 sudo npm install -g topojson
 
 #### Shapefile to topojson:
-topojson -o data/zips.topojson -s -- data/ZIP_CODE_040114/ZIP_CODE_040114.shp
+topojson -o datum/zips.topojson -s -- data/ZIP_CODE_040114/ZIP_CODE_040114.shp

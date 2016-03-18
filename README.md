@@ -12,16 +12,22 @@ Repository will conclude:
 
 - [x] repo + administration
 - [x] dashboard
+- [x] put online (gh-pages)
+- [ ] update links in the navbar
 - [ ] NYC zipcode map
 - [ ] Map hover
-- [x] put online (gh-pages)
 - [ ] Networking hower
 - [ ] pop-up infowindow
 - [ ] All/Workday/weekend/night/... modes
 - [ ] Community detection modes
-- [ ] Design
+- [ ] Fonts
+- [ ] Design, theme
 - [ ] About, docs, etc
 
 ### Later
 - [ ] backend database connection
 - [ ] range selection
+
+
+### Credits
+Dashboard layout created by [keen.io](keen.io)

@@ -21,6 +21,7 @@ Repository will conclude:
 - [ ] Map hover
 - [ ] prepare and process network data
 - [ ] Networking hower
+- [ ] Network arches
 - [ ] pop-up infowindow
 - [ ] All/Workday/weekend/night/... modes
 - [ ] Community detection modes

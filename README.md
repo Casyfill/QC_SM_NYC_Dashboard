@@ -8,8 +8,9 @@ Repository will conclude:
 ### TODO
 
 - [x] repo + administration
-- [ ] dashboard
-- [ ] NYC zipcode map with hover
+- [x] dashboard
+- [ ] NYC zipcode map
+- [ ] Map hover
 - [ ] put online (gh-pages)
 - [ ] Networking hower
 - [ ] pop-up infowindow

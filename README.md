@@ -13,7 +13,7 @@ Repository will conclude:
 - [x] repo + administration
 - [x] dashboard
 - [x] put online (gh-pages)
-- [ ] update links in the navbar
+- [x] update links in the navbar
 - [ ] NYC zipcode map
 - [ ] Map hover
 - [ ] Networking hower

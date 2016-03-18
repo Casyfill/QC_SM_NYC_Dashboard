@@ -16,8 +16,10 @@ Repository will conclude:
 - [x] update links in the navbar
 - [x] add d3
 - [x] add zipcode data
+- [ ] process zipcodes data
 - [ ] NYC zipcode map
 - [ ] Map hover
+- [ ] prepare and process network data
 - [ ] Networking hower
 - [ ] pop-up infowindow
 - [ ] All/Workday/weekend/night/... modes

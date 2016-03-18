@@ -14,6 +14,7 @@ Repository will conclude:
 - [x] dashboard
 - [x] put online (gh-pages)
 - [x] update links in the navbar
+- [x] add d3
 - [ ] NYC zipcode map
 - [ ] Map hover
 - [ ] Networking hower

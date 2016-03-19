@@ -25,8 +25,8 @@ function makeMap(error, zips) {
 
   var projection = d3.geo.mercator()
     .center([-73.94, 40.70])
-    .scale(50000)
-    .translate([(mapWidth) / 2, (mapHeight) / 2]);
+    .scale(60000)
+    .translate([100 +(mapWidth) / 2, (mapHeight) / 2]);
 
   var path = d3.geo.path()
       .projection(projection);

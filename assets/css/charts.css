@@ -3,7 +3,7 @@
 }*/
 
 
-path.district {
+path.zip {
   stroke: lightgray;
 	stroke-width: 1px;
 	fill: rgb(237, 255, 248);  //rgb(237, 255, 248);
@@ -11,7 +11,7 @@ path.district {
 }
 
 
-.district {
+.zip {
   stroke: lightgray;
   fill-opacity:0.0;
 	stroke-width: 1px;
@@ -54,7 +54,7 @@ h1#title{
   left: 13px;
 }
 
-.district:hover {
+.zip:hover {
     fill: rgb(122, 201, 123) !important;
     fill-opacity:1 !important;
 }

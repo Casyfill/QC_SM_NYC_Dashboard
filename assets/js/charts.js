@@ -1,5 +1,6 @@
 // var queue = d3_queue.queue();
 console.log('Charts fired')
+console.log('v proj2.11')
 
 d3_queue.queue()
   .defer(d3.json, "assets/datum/zips.json")

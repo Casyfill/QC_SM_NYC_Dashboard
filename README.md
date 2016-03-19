@@ -16,7 +16,7 @@ Repository will conclude:
 - [x] update links in the navbar
 - [x] add d3
 - [x] add zipcode data
-- [ ] process zipcodes data
+- [x] process zipcodes data (ipython + mapshaper)
 - [ ] NYC zipcode map
 - [ ] Map hover
 - [ ] prepare and process network data

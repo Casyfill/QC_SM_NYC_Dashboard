@@ -14,21 +14,21 @@ function makeGraphs(error, zips) {
 
 function makeMap(error, zips) {
   console.log('makeMap fired')
-  var zips = zips;
+  // var zips = zips;
 
   var mapWidth = 700;
   var mapHeight = 708;
 
-  // zipsFeatures = topojson.feature(zips, zips.objects.postalCode).features;
+  zipsFeatures = topojson.feature(zips, zips.objects.zips).features;
 
-  var path = d3.geo.path()
-    .projection(projection);
 
   var projection = d3.geo.mercator()
     .center([-73.94, 40.70])
     .scale(50000)
-    .translate([100 + (mapWidth) / 2, (mapHeight) / 2]);
+    .translate([(mapWidth) / 2, (mapHeight) / 2]);
 
+  var path = d3.geo.path()
+      .projection(projection);
 
   var mapSvg = d3.select("#mapBlock")
     .append("svg")
@@ -42,7 +42,7 @@ function makeMap(error, zips) {
     .enter().append("path")
     .attr("class", "zip")
     .attr("id", function(d) {
-      return "district " + d.id;
+      return "zip " + d.zip;
     })
     .attr("d", path)
 

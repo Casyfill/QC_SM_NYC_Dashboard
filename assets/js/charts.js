@@ -38,7 +38,7 @@ function makeMap(error, zips) {
   mapSvg
     .attr("id", "map")
     .selectAll(".zip")
-    .data(topojson.feature(zips, zips.objects.zip).features)
+    .data(topojson.feature(zips, zips.objects.zips).features)
     .enter().append("path")
     .attr("class", "zip")
     .attr("id", function(d) {

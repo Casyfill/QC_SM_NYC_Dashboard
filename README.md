@@ -17,16 +17,18 @@ Repository will conclude:
 - [x] add d3
 - [x] add zipcode data
 - [x] process zipcodes data (ipython + mapshaper)
-- [ ] NYC zipcode map
-- [ ] Map hover
+- [x] NYC zipcode map
+- [x] Map hover
+- [ ] add zip name
+- [ ] Postal code and name viewer
 - [ ] prepare and process network data
 - [ ] Networking hower
-- [ ] Network arches
-- [ ] pop-up infowindow
-- [ ] All/Workday/weekend/night/... modes
-- [ ] Community detection modes
+- [ ] Network arches/lines
+- [ ] seletr infowindow
 - [ ] Fonts
 - [ ] Design, theme
+- [ ] All/Workday/weekend/night/... modes
+- [ ] Community detection modes
 - [ ] About, docs, etc
 
 ### Later
@@ -36,3 +38,4 @@ Repository will conclude:
 
 ### Credits
 Dashboard layout created by [keen.io](keen.io)
+Zip boundaries were processed into topojson using [mapshaper](www.mapshaper.org)

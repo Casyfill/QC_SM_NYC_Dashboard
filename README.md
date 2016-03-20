@@ -37,5 +37,6 @@ Repository will conclude:
 
 
 ### Credits
-Dashboard layout created by [keen.io](keen.io)
-Zip boundaries were processed into topojson using [mapshaper](www.mapshaper.org)
+- Dashboard layout created by [keen.io](keen.io)
+- Zip boundaries were processed into topojson using [mapshaper](www.mapshaper.org)
+- [responsive svg help](http://stackoverflow.com/questions/9400615/whats-the-best-way-to-make-a-d3-js-visualisation-layout-responsive)
